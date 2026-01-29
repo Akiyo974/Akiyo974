@@ -76,13 +76,6 @@ My focus:
 
 ---
 
-## 📊 GitHub Stats
-
-![](https://github-readme-stats.vercel.app/api?username=akiyo974&theme=dark&hide_border=true)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=akiyo974&theme=dark&layout=compact&hide_border=true)
-
----
-
 # 🤝 Connect with me
 
 🌐 Portfolio → https://christendijoux.com  
