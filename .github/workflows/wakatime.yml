@@ -1,0 +1,39 @@
+name: WakaTime stats
+
+on:
+  schedule:
+    - cron: "43 5 * * *"   # daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+    steps:
+      - name: Skip until the WAKATIME_API_KEY secret exists
+        if: env.WAKATIME_API_KEY == ''
+        run: echo "::notice::Add the WAKATIME_API_KEY repository secret to enable this workflow."
+
+      - uses: athul/waka-readme@master
+        if: env.WAKATIME_API_KEY != ''
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SECTION_NAME: waka
+          SHOW_TITLE: true
+          SHOW_TIME: true
+          SHOW_TOTAL: true
+          TIME_RANGE: last_30_days
+          LANG_COUNT: 6
+          SHOW_MASKED_TIME: false
+          BLOCKS: "░▒▓█"
+          CODE_LANG: txt
+          COMMIT_MESSAGE: "chore(readme): update wakatime stats"

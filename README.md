@@ -40,7 +40,13 @@ I build two kinds of things: **web experiences** where motion, WebGL and typogra
 | [**webana**](https://github.com/Akiyo974/webana) | Katana e-commerce concept in React & Tailwind. [Live ↗](https://akiyo974.github.io/webana/) |
 | [**square-image-cropper**](https://github.com/Akiyo974/square-image-cropper) | Small Python GUI tool to crop images to square. |
 
-### `[ 04 ]` &nbsp; Stack
+### `[ 04 ]` &nbsp; Recently shipped
+
+<!--START_SECTION:shipped-->
+<sub>Updated automatically from my latest public pushes.</sub>
+<!--END_SECTION:shipped-->
+
+### `[ 05 ]` &nbsp; Stack
 
 <table>
 <tr><td><sub><b>FRONTEND</b></sub></td><td><img src="https://img.shields.io/badge/React-0a0a0a?style=flat-square&logo=react&logoColor=f2f2ee" alt="React" /> <img src="https://img.shields.io/badge/Next.js-0a0a0a?style=flat-square&logo=nextdotjs&logoColor=f2f2ee" alt="Next.js" /> <img src="https://img.shields.io/badge/TypeScript-0a0a0a?style=flat-square&logo=typescript&logoColor=f2f2ee" alt="TypeScript" /> <img src="https://img.shields.io/badge/JavaScript-0a0a0a?style=flat-square&logo=javascript&logoColor=f2f2ee" alt="JavaScript" /> <img src="https://img.shields.io/badge/Tailwind%20CSS-0a0a0a?style=flat-square&logo=tailwindcss&logoColor=f2f2ee" alt="Tailwind CSS" /> <img src="https://img.shields.io/badge/Sass-0a0a0a?style=flat-square&logo=sass&logoColor=f2f2ee" alt="Sass" /></td></tr>
@@ -53,7 +59,10 @@ I build two kinds of things: **web experiences** where motion, WebGL and typogra
 <tr><td><sub><b>CREATIVE</b></sub></td><td><img src="https://img.shields.io/badge/Blender-0a0a0a?style=flat-square&logo=blender&logoColor=f2f2ee" alt="Blender" /> <img src="https://img.shields.io/badge/Adobe%20CC-0a0a0a?style=flat-square&logo=adobecreativecloud&logoColor=f2f2ee" alt="Adobe CC" /></td></tr>
 </table>
 
-### `[ 05 ]` &nbsp; Now exploring
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+### `[ 06 ]` &nbsp; Now exploring
 
 `Rust` high-performance services &nbsp;·&nbsp; `AI agents` multi-agent workflows &nbsp;·&nbsp; `Data automation` business data → decisions &nbsp;·&nbsp; `Architecture` scalable integrations &nbsp;·&nbsp; `Security` app & infra
 

@@ -1,0 +1,48 @@
+name: Recently shipped
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # daily
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/recently_shipped.py
+      - .github/workflows/recently-shipped.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild section
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+          SHIPPED_LIMIT: "5"
+        run: python scripts/recently_shipped.py
+
+      - name: Commit
+        run: |
+          if git diff --quiet README.md; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore(readme): update recently shipped"
+          git pull --rebase origin main
+          git push
