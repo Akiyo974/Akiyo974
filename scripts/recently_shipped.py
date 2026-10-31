@@ -12,6 +12,8 @@ Env:
     GH_USER        profile owner (default: Akiyo974)
     SHIPPED_LIMIT  number of rows (default: 5)
     SHIPPED_SKIP   comma separated repo names to ignore
+
+Repositories without a description are skipped: add one on GitHub to list it.
 """
 from __future__ import annotations
 
@@ -69,6 +71,7 @@ def build() -> str:
         r for r in repos
         if not r["fork"] and not r["archived"] and not r["private"]
         and r["name"].lower() not in SKIP
+        and (r.get("description") or "").strip()  # an empty row reads as unfinished
     ][:LIMIT]
 
     rows = ["| Repo | What | Stack | Last push |", "| :-- | :-- | :-- | :-- |"]
