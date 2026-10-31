@@ -43,7 +43,13 @@ I build two kinds of things: **web experiences** where motion, WebGL and typogra
 ### `[ 04 ]` &nbsp; Recently shipped
 
 <!--START_SECTION:shipped-->
-<sub>Updated automatically from my latest public pushes.</sub>
+| Repo | What | Stack | Last push |
+| :-- | :-- | :-- | :-- |
+| [**Mona-Game**](https://github.com/Akiyo974/Mona-Game) [↗](https://akiyo974.github.io/Mona-Game/) | Fort Mason Octodex: catch all 12 GitHub Octocats around San Francisco's Fort Mason and wi… | `Python` | <sub>today</sub> |
+| [**badger**](https://github.com/Akiyo974/badger) [↗](https://akiyo974.github.io/badger/) | Apps for the GitHub Universe '26 badge and Badge Studio, an app store for it that runs in… | `Python` | <sub>today</sub> |
+| [**portfolio-watch**](https://github.com/Akiyo974/portfolio-watch) [↗](https://christendijoux.com) | Portfolio de Christen Dijoux en version Galaxy Watch — app Wear OS en Kotlin et Jetpack C… | `Kotlin` | <sub>4 days ago</sub> |
+| [**portfolio**](https://github.com/Akiyo974/portfolio) [↗](https://christendijoux.com) | Monochrome portfolio — dithered WebGL, kinetic type, a Lab that dissects every component… | `TypeScript` | <sub>4 days ago</sub> |
+| [**loyer-app**](https://github.com/Akiyo974/loyer-app) [↗](https://loyer-app-lake.vercel.app) |  | `TypeScript` | <sub>Sep 2026</sub> |
 <!--END_SECTION:shipped-->
 
 ### `[ 05 ]` &nbsp; Stack
