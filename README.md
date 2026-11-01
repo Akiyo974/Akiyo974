@@ -45,10 +45,10 @@ I build two kinds of things: **web experiences** where motion, WebGL and typogra
 <!--START_SECTION:shipped-->
 | Repo | What | Stack | Last push |
 | :-- | :-- | :-- | :-- |
+| [**portfolio**](https://github.com/Akiyo974/portfolio) [↗](https://christendijoux.com) | Monochrome portfolio — dithered WebGL, kinetic type, a Lab that dissects every component… | `TypeScript` | <sub>today</sub> |
 | [**Mona-Game**](https://github.com/Akiyo974/Mona-Game) [↗](https://akiyo974.github.io/Mona-Game/) | Fort Mason Octodex: catch all 12 GitHub Octocats around San Francisco's Fort Mason and wi… | `Python` | <sub>today</sub> |
-| [**badger**](https://github.com/Akiyo974/badger) [↗](https://akiyo974.github.io/badger/) | Apps for the GitHub Universe '26 badge and Badge Studio, an app store for it that runs in… | `Python` | <sub>today</sub> |
-| [**portfolio-watch**](https://github.com/Akiyo974/portfolio-watch) [↗](https://christendijoux.com) | Portfolio de Christen Dijoux en version Galaxy Watch — app Wear OS en Kotlin et Jetpack C… | `Kotlin` | <sub>4 days ago</sub> |
-| [**portfolio**](https://github.com/Akiyo974/portfolio) [↗](https://christendijoux.com) | Monochrome portfolio — dithered WebGL, kinetic type, a Lab that dissects every component… | `TypeScript` | <sub>4 days ago</sub> |
+| [**badger**](https://github.com/Akiyo974/badger) [↗](https://akiyo974.github.io/badger/) | Apps for the GitHub Universe '26 badge and Badge Studio, an app store for it that runs in… | `Python` | <sub>yesterday</sub> |
+| [**portfolio-watch**](https://github.com/Akiyo974/portfolio-watch) [↗](https://christendijoux.com) | Portfolio de Christen Dijoux en version Galaxy Watch — app Wear OS en Kotlin et Jetpack C… | `Kotlin` | <sub>5 days ago</sub> |
 | [**BlueDistrict**](https://github.com/Akiyo974/BlueDistrict) | 3D LinkedIn-powered city game where your professional activity grows and lights up your d… | `TypeScript` | <sub>Jun 2026</sub> |
 <!--END_SECTION:shipped-->
 
