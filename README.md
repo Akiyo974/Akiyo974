@@ -45,11 +45,11 @@ I build two kinds of things: **web experiences** where motion, WebGL and typogra
 <!--START_SECTION:shipped-->
 | Repo | What | Stack | Last push |
 | :-- | :-- | :-- | :-- |
-| [**countersigned**](https://github.com/Akiyo974/countersigned) [↗](https://akiyo974.github.io/countersigned/) | Terraform-style plan / approve / apply for AI agent actions: drift checks, idempotency, v… | `TypeScript` | <sub>today</sub> |
-| [**portfolio**](https://github.com/Akiyo974/portfolio) [↗](https://christendijoux.com) | Monochrome portfolio — dithered WebGL, kinetic type, a Lab that dissects every component… | `TypeScript` | <sub>today</sub> |
-| [**Mona-Game**](https://github.com/Akiyo974/Mona-Game) [↗](https://akiyo974.github.io/Mona-Game/) | Fort Mason Octodex: catch all 12 GitHub Octocats around San Francisco's Fort Mason and wi… | `Python` | <sub>4 days ago</sub> |
-| [**badger**](https://github.com/Akiyo974/badger) [↗](https://akiyo974.github.io/badger/) | Apps for the GitHub Universe '26 badge and Badge Studio, an app store for it that runs in… | `Python` | <sub>5 days ago</sub> |
-| [**portfolio-watch**](https://github.com/Akiyo974/portfolio-watch) [↗](https://christendijoux.com) | Portfolio de Christen Dijoux en version Galaxy Watch — app Wear OS en Kotlin et Jetpack C… | `Kotlin` | <sub>9 days ago</sub> |
+| [**countersigned**](https://github.com/Akiyo974/countersigned) [↗](https://akiyo974.github.io/countersigned/) | Terraform-style plan / approve / apply for AI agent actions: drift checks, idempotency, v… | `TypeScript` | <sub>yesterday</sub> |
+| [**portfolio**](https://github.com/Akiyo974/portfolio) [↗](https://christendijoux.com) | Monochrome portfolio — dithered WebGL, kinetic type, a Lab that dissects every component… | `TypeScript` | <sub>yesterday</sub> |
+| [**Mona-Game**](https://github.com/Akiyo974/Mona-Game) [↗](https://akiyo974.github.io/Mona-Game/) | Fort Mason Octodex: catch all 12 GitHub Octocats around San Francisco's Fort Mason and wi… | `Python` | <sub>5 days ago</sub> |
+| [**badger**](https://github.com/Akiyo974/badger) [↗](https://akiyo974.github.io/badger/) | Apps for the GitHub Universe '26 badge and Badge Studio, an app store for it that runs in… | `Python` | <sub>6 days ago</sub> |
+| [**portfolio-watch**](https://github.com/Akiyo974/portfolio-watch) [↗](https://christendijoux.com) | Portfolio de Christen Dijoux en version Galaxy Watch — app Wear OS en Kotlin et Jetpack C… | `Kotlin` | <sub>10 days ago</sub> |
 <!--END_SECTION:shipped-->
 
 ### `[ 05 ]` &nbsp; Stack
